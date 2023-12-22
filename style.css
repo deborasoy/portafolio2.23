@@ -52,15 +52,14 @@ nav{
     float:left;
   }
 /*small screen*/
-  @media screen and (max-width: 576px) {
+  @media screen and (min-width: 250px) and (max-width: 576px) {
    nav{
     margin: 0;
-    width: 570px;
     height: 250px;
     align-content: center;
     }
   }
-  @media screen and (max-width: 576px) {
+  @media screen  and (max-width: 576px) {
     .topli{
         float: none;
         flex-direction: column;
@@ -69,7 +68,7 @@ nav{
     }
   }
 
-  @media screen and (max-width: 576px) {
+  @media screen  and (max-width: 576px) {
     .profile_name{
         float: none;
         padding: 5px;
